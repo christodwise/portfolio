@@ -112,7 +112,7 @@ const renderSkills = () => {
         const div = document.createElement('div');
         div.className = "glass-card rounded-2xl p-6 hover:border-cyan-500/30 transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)]";
         div.innerHTML = `
-            <h3 class="text-lg font-semibold text-cyan-400 mb-4 pb-2 border-b border-slate-800 flex justify-between items-center">${group.category}</h3>
+            <h3 class="text-lg font-semibold text-emerald-400 mb-4 pb-2 border-b border-slate-800 flex justify-between items-center">${group.category}</h3>
             <div class="flex flex-wrap gap-2">
                 ${group.skills.map(skill => `<span class="px-3 py-1.5 rounded-lg bg-slate-800/50 text-slate-300 text-xs font-medium border border-slate-700/50 hover:bg-cyan-950/50 hover:text-cyan-200 hover:border-cyan-500/30 transition-all cursor-default">${skill}</span>`).join('')}
             </div>
@@ -131,8 +131,8 @@ const renderProjects = () => {
         div.style.transitionDelay = `${index * 150}ms`;
 
         div.innerHTML = `
-            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div class="absolute -bottom-4 -right-4 text-slate-800/50 group-hover:text-cyan-900/20 transition-colors duration-500 rotate-12 pointer-events-none">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute -bottom-4 -right-4 text-slate-800/50 group-hover:text-emerald-900/20 transition-colors duration-500 rotate-12 pointer-events-none">
                 <i data-lucide="folder-git-2" class="w-32 h-32"></i>
             </div>
             <div class="relative z-10 flex flex-col h-full">
@@ -190,12 +190,12 @@ const initRadarChart = () => {
             label: 'Proficiency',
             data: [95, 95, 90, 85, 85, 80],
             fill: true,
-            backgroundColor: 'rgba(6, 182, 212, 0.2)',
-            borderColor: '#06b6d4',
-            pointBackgroundColor: '#06b6d4',
+            backgroundColor: 'rgba(16, 185, 129, 0.2)',
+            borderColor: '#10b981',
+            pointBackgroundColor: '#10b981',
             pointBorderColor: '#fff',
             pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: '#06b6d4',
+            pointHoverBorderColor: '#10b981',
             borderWidth: 3
         }]
     };
