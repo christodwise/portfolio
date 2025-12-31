@@ -6,7 +6,7 @@ window.RESUME_DATA = {
     location: "Bangalore, Karnataka",
     summary: "DevOps Engineer with proven experience in cloud-native application delivery, container orchestration, CI/CD automation, and infrastructure as code. Looking to leverage technical and analytical skills to support enterprise-scale deployments and automation initiatives.",
     linkedin: "linkedin.com/in/christojimmy",
-    profileImage: "https://media.licdn.com/dms/image/v2/D5603AQEoYDrs9QU8pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1681936823977?e=2147483647&v=beta&t=z9Q4DJUuGnhwgcB_ul_9zB_jfHHg9byKA2wZiM644Rc"
+    profileImage: "https://media.licdn.com/dms/image/v2/D5603AQE17OKvEn7kBQ/profile-displayphoto-scale_200_200/B56ZtlDs9GGsAY-/0/1766927029055?e=2147483647&v=beta&t=zbNwN8Xm4Rp7EsD6yLarJYzrWlmmrz9K4aUYlbnO7HE"
 };
 
 window.EXPERIENCE = [
